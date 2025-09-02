@@ -1,0 +1,564 @@
+{
+  "cities": [
+    {
+      "id": "1",
+      "cityName": "Hyderabad",
+      "image": "/hyd.jpg"
+    },
+    {
+      "id": "2",
+      "cityName": "Mumbai",
+      "image": "/mumbai.jpg"
+    },
+    {
+      "id": "3",
+      "cityName": "Delhi",
+      "image": "/delhi.jpg"
+    },
+    {
+      "id": "4",
+      "cityName": "Bangalore",
+      "image": "/bangalore.jpg"
+    },
+    {
+      "id": "5",
+      "cityName": "Jaipur",
+      "image": "/jaipur.jpg"
+    },
+    {
+      "id": "6",
+      "cityName": "Sikkim",
+      "image": "/sikkim.png"
+    }
+  ],
+  "itineraries": [
+    {
+      "id": "7d55",
+      "destination": "goa",
+      "days": "2",
+      "dates": [
+        "2025-08-26",
+        "2025-08-27"
+      ],
+      "description": "Beaches, food",
+      "budget": "3000",
+      "groupSize": "5"
+    },
+    {
+      "id": "8259",
+      "destination": "hyderabad",
+      "days": "10",
+      "dates": [
+        "2025-09-26",
+        "2025-09-06"
+      ],
+      "description": "charminar, golconda, IT park",
+      "budget": "2000",
+      "groupSize": "6"
+    },
+    {
+      "id": "0b47",
+      "destination": "Bali",
+      "days": "10",
+      "dates": [
+        "2025-09-27",
+        "2025-10-09"
+      ],
+      "description": "Beaches, food, clubs",
+      "budget": "25000",
+      "groupSize": "9"
+    },
+    {
+      "id": "f5ce",
+      "destination": "chennai",
+      "days": "10",
+      "dates": [
+        "2025-08-29",
+        "2025-08-31"
+      ],
+      "description": "beaches, food, temples",
+      "budget": "4000",
+      "groupSize": "4"
+    },
+    {
+      "id": "c3c0",
+      "userEmail": "akhila@gmail.com",
+      "destination": "vizag",
+      "days": "3",
+      "dates": [
+        "2025-08-28",
+        "2025-09-03"
+      ],
+      "description": "beaches, sea food",
+      "budget": "2000",
+      "groupSize": "3"
+    },
+    {
+      "id": "32e8",
+      "userEmail": "akhila@gmail.com",
+      "destination": "kerala",
+      "days": "7",
+      "dates": [
+        "2025-08-28",
+        "2025-09-04"
+      ],
+      "description": "temples, resorts",
+      "budget": "8000",
+      "groupSize": "0"
+    },
+    {
+      "id": "effb",
+      "userEmail": "akhila@gmail.com",
+      "destination": "hyderabad",
+      "days": "3",
+      "dates": [
+        "2025-08-28",
+        "2025-08-30"
+      ],
+      "description": "restaurants, cafes",
+      "budget": "1500",
+      "groupSize": "2"
+    },
+    {
+      "id": "9626",
+      "userEmail": "akhila@gmail.com",
+      "destination": "mumbai",
+      "days": "14",
+      "dates": [
+        "2025-08-28",
+        "2025-09-11"
+      ],
+      "description": "Bollywood heritage walk, gate way of india",
+      "budget": "15000",
+      "groupSize": "5"
+    },
+    {
+      "id": "c58c",
+      "userEmail": "rasna@gmail.com",
+      "destination": "jaipur",
+      "days": "5",
+      "dates": [
+        "2025-09-10",
+        "2025-09-15"
+      ],
+      "description": "Heritage buildings, culture",
+      "budget": "7000",
+      "groupSize": "8"
+    },
+    {
+      "id": "dbd5",
+      "userEmail": "avinas@gmail.com",
+      "destination": "hyderabad",
+      "days": "2",
+      "dates": [
+        "2025-08-28",
+        "2025-08-29"
+      ],
+      "description": "food, charminar",
+      "budget": "2000",
+      "groupSize": "5"
+    },
+    {
+      "id": "9d79",
+      "userEmail": "bc@gmail.com",
+      "destination": "sikkim",
+      "days": "4",
+      "dates": [
+        "2025-09-01",
+        "2025-09-04"
+      ],
+      "description": "Gurudongmar Lake, chakra centre, national park",
+      "budget": "10000",
+      "groupSize": "10"
+    },
+    {
+      "id": "e256",
+      "userEmail": "ravi@gmail.com",
+      "destination": "goa",
+      "days": "10",
+      "dates": [
+        "2025-09-01",
+        "2025-09-10"
+      ],
+      "description": "beaches, clubs",
+      "budget": "20000",
+      "groupSize": "10"
+    },
+    {
+      "id": "581a",
+      "userEmail": "vinay@gmail.com",
+      "destination": "bangalore",
+      "days": "1",
+      "dates": [
+        "2025-08-28",
+        "2025-08-28"
+      ],
+      "description": "mysore palace,temples",
+      "budget": "2000",
+      "groupSize": "2"
+    },
+    {
+      "id": "2fec",
+      "userEmail": "avinas@gmail.com",
+      "destination": "Sikkim",
+      "days": "5",
+      "dates": [
+        "2025-09-01",
+        "2025-09-06"
+      ],
+      "description": "temples",
+      "budget": "5000",
+      "groupSize": "5"
+    },
+    {
+      "id": "41ba",
+      "userEmail": "avinas@gmail.com",
+      "destination": "delhi",
+      "days": "5",
+      "dates": [
+        "2025-09-01",
+        "2025-09-05"
+      ],
+      "description": "taj mahal, sarojini market",
+      "budget": "3000",
+      "groupSize": "5"
+    },
+    {
+      "id": "8dab",
+      "userEmail": "dil@eep.com",
+      "destination": "mumbai",
+      "days": "-365",
+      "dates": [
+        "3313-02-02",
+        "3312-02-02"
+      ],
+      "description": "dfgdgfg",
+      "budget": "2134",
+      "groupSize": "2"
+    },
+    {
+      "id": "36c2",
+      "userEmail": "dil@eep.com",
+      "destination": "delhi",
+      "days": "2",
+      "dates": [
+        "2025-08-29",
+        "2025-08-30"
+      ],
+      "description": "123",
+      "budget": "-10",
+      "groupSize": "-10"
+    },
+    {
+      "id": "d6fd",
+      "userEmail": "rasagnya@gmail.com",
+      "destination": "bangalore",
+      "days": "1",
+      "dates": [
+        "2025-09-01",
+        "2025-09-01"
+      ],
+      "description": "mysoore palace",
+      "budget": "2500",
+      "groupSize": "2"
+    }
+  ],
+  "user": [
+    {
+      "id": "42aa",
+      "userEmail": "avinas@gmail.com",
+      "itineraryId": "c58c",
+      "item": {
+        "id": "c58c",
+        "userEmail": "rasna@gmail.com",
+        "destination": "jaipur",
+        "days": "5",
+        "dates": [
+          "2025-09-10",
+          "2025-09-15"
+        ],
+        "description": "Heritage buildings, culture",
+        "budget": "7000",
+        "groupSize": "8"
+      }
+    },
+    {
+      "id": "4f8c",
+      "userEmail": "avinas@gmail.com",
+      "itineraryId": "effb",
+      "item": {
+        "id": "effb",
+        "userEmail": "akhila@gmail.com",
+        "destination": "hyderabad",
+        "days": "3",
+        "dates": [
+          "2025-08-28",
+          "2025-08-30"
+        ],
+        "description": "restaurants, cafes",
+        "budget": "1500",
+        "groupSize": "2"
+      }
+    },
+    {
+      "id": "23a1",
+      "userEmail": "avinas@gmail.com",
+      "itineraryId": "7d55",
+      "item": {
+        "id": "7d55",
+        "destination": "goa",
+        "days": "2",
+        "dates": [
+          "2025-08-26",
+          "2025-08-27"
+        ],
+        "description": "Beaches, food",
+        "budget": "3000",
+        "groupSize": "5"
+      }
+    },
+    {
+      "id": "6034",
+      "userEmail": "bc@gmail.com",
+      "itineraryId": "9d79",
+      "item": {
+        "id": "9d79",
+        "userEmail": "bc@gmail.com",
+        "destination": "sikkim",
+        "days": "4",
+        "dates": [
+          "2025-09-01",
+          "2025-09-04"
+        ],
+        "description": "Gurudongmar Lake, chakra centre, national park",
+        "budget": "10000",
+        "groupSize": "10"
+      }
+    },
+    {
+      "id": "9360",
+      "userEmail": "bc@gmail.com",
+      "itineraryId": "0b47",
+      "item": {
+        "id": "0b47",
+        "destination": "Bali",
+        "days": "10",
+        "dates": [
+          "2025-09-27",
+          "2025-10-09"
+        ],
+        "description": "Beaches, food, clubs",
+        "budget": "25000",
+        "groupSize": "9"
+      }
+    },
+    {
+      "id": "419b",
+      "userEmail": "bc@gmail.com",
+      "itineraryId": "8259",
+      "item": {
+        "id": "8259",
+        "destination": "hyderabad",
+        "days": "10",
+        "dates": [
+          "2025-09-26",
+          "2025-09-06"
+        ],
+        "description": "charminar, golconda, IT park",
+        "budget": "2000",
+        "groupSize": "6"
+      }
+    },
+    {
+      "id": "786a",
+      "userEmail": "ravi@gmail.com",
+      "itineraryId": "e256",
+      "item": {
+        "id": "e256",
+        "userEmail": "ravi@gmail.com",
+        "destination": "goa",
+        "days": "10",
+        "dates": [
+          "2025-09-01",
+          "2025-09-10"
+        ],
+        "description": "beaches, clubs",
+        "budget": "20000",
+        "groupSize": "10"
+      }
+    },
+    {
+      "id": "36b1",
+      "userEmail": "akhila@gmail.com",
+      "itineraryId": "e256",
+      "item": {
+        "id": "e256",
+        "userEmail": "ravi@gmail.com",
+        "destination": "goa",
+        "days": "10",
+        "dates": [
+          "2025-09-01",
+          "2025-09-10"
+        ],
+        "description": "beaches, clubs",
+        "budget": "20000",
+        "groupSize": "10"
+      }
+    },
+    {
+      "id": "c135",
+      "userEmail": "vinay@gmail.com",
+      "itineraryId": "7d55",
+      "item": {
+        "id": "7d55",
+        "destination": "goa",
+        "days": "2",
+        "dates": [
+          "2025-08-26",
+          "2025-08-27"
+        ],
+        "description": "Beaches, food",
+        "budget": "3000",
+        "groupSize": "5"
+      }
+    },
+    {
+      "id": "bbaa",
+      "userEmail": "vinay@gmail.com",
+      "itineraryId": "8259",
+      "item": {
+        "id": "8259",
+        "destination": "hyderabad",
+        "days": "10",
+        "dates": [
+          "2025-09-26",
+          "2025-09-06"
+        ],
+        "description": "charminar, golconda, IT park",
+        "budget": "2000",
+        "groupSize": "6"
+      }
+    },
+    {
+      "id": "dabc",
+      "userEmail": "vinay@gmail.com",
+      "itineraryId": "effb",
+      "item": {
+        "id": "effb",
+        "userEmail": "akhila@gmail.com",
+        "destination": "hyderabad",
+        "days": "3",
+        "dates": [
+          "2025-08-28",
+          "2025-08-30"
+        ],
+        "description": "restaurants, cafes",
+        "budget": "1500",
+        "groupSize": "2"
+      }
+    },
+    {
+      "id": "a8da",
+      "userEmail": "vinay@gmail.com",
+      "itineraryId": "581a",
+      "item": {
+        "id": "581a",
+        "userEmail": "vinay@gmail.com",
+        "destination": "bangalore",
+        "days": "1",
+        "dates": [
+          "2025-08-28",
+          "2025-08-28"
+        ],
+        "description": "mysore palace,temples",
+        "budget": "2000",
+        "groupSize": "2"
+      }
+    },
+    {
+      "id": "52e1",
+      "userEmail": "guda@gmail.com",
+      "itineraryId": "effb",
+      "item": {
+        "id": "effb",
+        "userEmail": "akhila@gmail.com",
+        "destination": "hyderabad",
+        "days": "3",
+        "dates": [
+          "2025-08-28",
+          "2025-08-30"
+        ],
+        "description": "restaurants, cafes",
+        "budget": "1500",
+        "groupSize": "2"
+      }
+    },
+    {
+      "id": "082c",
+      "userEmail": "avinas@gmail.com",
+      "itineraryId": "8259",
+      "item": {
+        "id": "8259",
+        "destination": "hyderabad",
+        "days": "10",
+        "dates": [
+          "2025-09-26",
+          "2025-09-06"
+        ],
+        "description": "charminar, golconda, IT park",
+        "budget": "2000",
+        "groupSize": "6"
+      }
+    },
+    {
+      "id": "8033",
+      "userEmail": "avinas@gmail.com",
+      "itineraryId": "9d79",
+      "item": {
+        "id": "9d79",
+        "userEmail": "bc@gmail.com",
+        "destination": "sikkim",
+        "days": "4",
+        "dates": [
+          "2025-09-01",
+          "2025-09-04"
+        ],
+        "description": "Gurudongmar Lake, chakra centre, national park",
+        "budget": "10000",
+        "groupSize": "10"
+      }
+    },
+    {
+      "id": "6a4e",
+      "itineraryId": "7d55",
+      "item": {
+        "id": "7d55",
+        "destination": "goa",
+        "days": "2",
+        "dates": [
+          "2025-08-26",
+          "2025-08-27"
+        ],
+        "description": "Beaches, food",
+        "budget": "3000",
+        "groupSize": "5"
+      }
+    },
+    {
+      "id": "7b69",
+      "itineraryId": "0b47",
+      "item": {
+        "id": "0b47",
+        "destination": "Bali",
+        "days": "10",
+        "dates": [
+          "2025-09-27",
+          "2025-10-09"
+        ],
+        "description": "Beaches, food, clubs",
+        "budget": "25000",
+        "groupSize": "9"
+      }
+    }
+  ]
+}
