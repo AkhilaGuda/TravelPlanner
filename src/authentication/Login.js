@@ -1,3 +1,5 @@
+// move Login and Signup to components folder
+
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "./firebase";

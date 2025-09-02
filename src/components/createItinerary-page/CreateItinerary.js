@@ -16,6 +16,9 @@ export function CreateItinerary() {
     const navigate = useNavigate();
     const loading = useAuthLoading();
     const user = useAuth();
+
+    //reIterate over the variables and component names and change them if you thinlk of any good name
+    //remove if not needed
     useEffect(() => {
         if (!loading && !user) {
             navigate('/login');
@@ -24,6 +27,8 @@ export function CreateItinerary() {
     if (loading) {
         return <p>loading....</p>;
     }
+
+    // rename function to validateDates
     const calculateDays = (start, end, days) => {
         const diffDays = differenceInDays(end, start) + 1;
 
@@ -41,11 +46,14 @@ export function CreateItinerary() {
       
         if (!calculateDays(dates[0], dates[1], daysNumber)) {
             toast.error("Duration and days must be equal");
+            //make message more readable
             return;
         }
         const cost = parseInt(budget, 10);
+        //learn if we can store the data as int in json
         const size = parseInt(groupSize, 10);
         if (cost < 0) {
+            //better to have it onChage of input instead of submit
             toast.error("Budget can't be NEGATIVE");
             return;
         }
@@ -65,6 +73,8 @@ export function CreateItinerary() {
         };
         try {
             await axios.post('http://localhost:5000/itineraries', newItinerary);
+            //I want one useMutation for post call
+            // We don't need setState's here
             setDestination("");
             setDays("");
             setDates(["", ""]);

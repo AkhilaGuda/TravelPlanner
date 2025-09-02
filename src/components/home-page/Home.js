@@ -3,6 +3,8 @@ import { Button, Paper, Box, Stack } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 export default function Home() {
+// remove unused imports and variable also format the file
+// Avoid inline styling wherever possible,instead use CSS files across the project
     const navigate = useNavigate();
     return (
         <Box sx={{ position: "relative", minHeight: "80vh", p: 4,}}>
@@ -32,6 +34,7 @@ export default function Home() {
             </Paper>
 
             {/* Bottom-Right Image */}
+            {/* remove the unwanted comments */}
             <Box
                 component="img"
                 src="/travel-concept2.png"

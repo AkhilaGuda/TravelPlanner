@@ -23,6 +23,7 @@ const NavBar = () => {
         auth.signOut();
     };
     if(loading){
+        //Show loading state for entire component - not only navbar
         return(
             <AppBar position="sticky" color="success">
             <Toolbar>

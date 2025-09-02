@@ -2,6 +2,7 @@ import './App.css';
 import { AuthProvider, useAuth } from './authentication/useAuth';
 import Login from './authentication/Login';
 import Signup from './authentication/Signup'
+//NavLink is unused
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import Cities from './components/cities-page/Cities';
 import { CreateItinerary } from './components/createItinerary-page/CreateItinerary';
@@ -18,10 +19,14 @@ import NotFound from './components/navigations/NotFound';
 import 'react-toastify/dist/ReactToastify.css';
 import { ThemeProvider } from './components/navigations/ThemeContext';
 
+//format the file
+
 function App() {
+  //user is unused
   const user = useAuth();
   return (
     <ThemeProvider>
+      {/* Why we need AuthProvider here?we have it in index? which is better place to keep it */}
     <AuthProvider>
     <div className='app'>
 
@@ -37,6 +42,7 @@ function App() {
           <Route path="/itineraries"  element={<ItineraryList />} />
           <Route path="/itineraries/:city" element={<CityItineraries />} />
           <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} >
+          {/* Lets also add protection for chids for syntactic explanation */}
           <Route path="joinedTrips" element={<UserJoinedTrips />}/>
           <Route path="createdTrips" element={<UserCreatedTrips />}/>
           </Route>

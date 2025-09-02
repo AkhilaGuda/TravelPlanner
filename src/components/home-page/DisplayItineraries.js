@@ -1,3 +1,4 @@
+// move this to separate folder
 import { TextField, Button, Card, Box, Paper, Stack, Typography, Dialog,
   DialogTitle,
   DialogContent,
@@ -21,6 +22,7 @@ export default function DisplayItineraries({ itineraries }) {
 
     // Format: [{ userEmail: "akhila@gmail.com", itineraryId: "1",item }, {}]
     const [joinedList, setJoinedList] = useState([]);
+    // rename joinedTripsIds to joinedIternarysIds
     const [joinedTripsIds, setJoinedTripsIds] = useState([]);
     const [joinedPeople, setJoinedPeople] = useState([]);
     const[selectedItemId,setSelectedItemId]=useState(null);
@@ -33,6 +35,9 @@ export default function DisplayItineraries({ itineraries }) {
     useEffect(() => {
         if (user) {
             const userEmail = user.email;
+
+            console.log("useEffect called")
+            //I want atleast 2 post API calls to be made using useQuery - remaining axios
             axios.get(`http://localhost:5000/user?userEmail=${userEmail}`)
                 .then((response) => {
                     const tripIds = response.data.map(entry => entry.itineraryId);
@@ -41,7 +46,9 @@ export default function DisplayItineraries({ itineraries }) {
                 .catch(error => console.error(error.message));
         }
     }, [user]);
+    //We don't need user in dependency array,instead fetchon mount
     const handleJoin = async (item) => {
+        //Instead on handling the join here,disable the Join button
         if (user === null) {
             navigate("/login");
             return;
@@ -51,6 +58,7 @@ export default function DisplayItineraries({ itineraries }) {
             const userEmail = item.email;
             const alreadyJoined = joinedTripsIds.includes(item.id);
             if (!alreadyJoined) {
+                // In join DB we should just store Who joined and Which Iternary joined
                 newEntry = { userEmail: userEmail, itineraryId: itineraryId, item };
                 await axios.post(`http://localhost:5000/user`, newEntry);
                 setJoinedList(prev => [...prev, newEntry]);
@@ -76,6 +84,7 @@ export default function DisplayItineraries({ itineraries }) {
         }
     }
 
+    //view participats should be enabled all the time
     return (
         <div>
             <Box>

@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import TravelBg from '../../images/Travel_bg1.png';
 export default function ProfileButtons(){
     return(
+
+        //if time permits,try using same buttons/'paper component in home and profiless
         <Box 
             style={{        position: "relative", minHeight: "80vh", p: 4,
                              flexWrap: "wrap", justifyContent: "center", gap: "30px",

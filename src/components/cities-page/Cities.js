@@ -8,6 +8,8 @@ export default function Cities() {
     const [error, setError] = useState(null);
     const navigate =useNavigate();
     useEffect(() => {
+
+        // use async await for better readability
         fetch("http://localhost:5000/cities")
             .then((res) => {
                 if (!res.ok) {
@@ -24,7 +26,9 @@ export default function Cities() {
                 console.error(error.message);
             });
     }, []);
+    //use useQuery and handle error effectively on API failures
     const handleCityClick =(city)=>{
+        //Do we need this additional steps
         const cityName=city.toLowerCase();
         console.log(cityName);
         navigate(`/itineraries/${cityName}`);

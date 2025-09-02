@@ -564,6 +564,22 @@
         "budget": "4000",
         "groupSize": "4"
       }
+    },
+    {
+      "id": "0700",
+      "itineraryId": "8259",
+      "item": {
+        "id": "8259",
+        "destination": "hyderabad",
+        "days": "10",
+        "dates": [
+          "2025-09-26",
+          "2025-09-06"
+        ],
+        "description": "charminar, golconda, IT park",
+        "budget": "2000",
+        "groupSize": "6"
+      }
     }
   ]
 }

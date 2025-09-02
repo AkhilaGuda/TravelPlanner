@@ -5,6 +5,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { TextField, Button, Box, Paper, Stack, CircularProgress } from "@mui/material";
 import TravelBg from '../images/Travel_bg1.png';
 import { toast } from "react-toastify";
+
+//why the name is Login?
 export default function Login() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -27,6 +29,7 @@ export default function Login() {
         e.preventDefault();
         if(!isStrongPassword(password)){
             toast.error("Please enter Strong Password(include 8characters, uppercase, lowercase, digit, special character)");
+            //can be a better message
             return;
         }
         if(password!==confirmPassword){
@@ -40,10 +43,13 @@ export default function Login() {
             await updateProfile(auth.currentUser, {
                 displayName: name
             })
+            // move the user variable to top and use it
             const user = auth.currentUser;
             console.log(user);
+            //remove logs
             toast.success(`user ${name} registered successfully`);
             navigate("/", { replace: true });
+            //Do we need this setStates as they will be defaulted to ""
             setName("");
             setEmail("");
             setPassword("");
