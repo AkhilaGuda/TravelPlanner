@@ -1,11 +1,11 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
-import { auth } from "../authentication/firebase";
+import { auth } from "./firebase";
 import { Link, useNavigate } from 'react-router-dom';
 import { TextField, Button, Box, Paper, Stack, CircularProgress } from "@mui/material";
 import TravelBg from '../images/Travel_bg1.png';
 import { toast } from "react-toastify";
-import { useAuthLoading } from "../authentication/useAuth";
+import { useAuthLoading } from "./useAuth";
 export default function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");

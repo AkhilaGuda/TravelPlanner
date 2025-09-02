@@ -1,22 +1,22 @@
 import './App.css';
 import { AuthProvider, useAuth } from './authentication/useAuth';
-import Login from './components/Login';
-import Signup from './components/Signup'
+import Login from './authentication/Login';
+import Signup from './authentication/Signup'
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
-import Cities from './components/Cities';
-import { CreateItinerary } from './components/CreateItinerary';
-import ItineraryList from './components/ItineraryList';
-import NavBar from './components/NavBar';
-import CityItineraries from './components/CityItineraries';
-import Home from './components/Home';
-import Profile from './components/Profile';
-import ProtectedRoute from './components/ProtectedRoute';
-import UserJoinedTrips from './components/UserJoinedTrips';
-import UserCreatedTrips from './components/UserCreatedTrips';
+import Cities from './components/cities-page/Cities';
+import { CreateItinerary } from './components/createItinerary-page/CreateItinerary';
+import ItineraryList from './components/home-page/ItineraryList';
+import NavBar from './components/navigations/NavBar';
+import CityItineraries from './components/cities-page/CityItineraries';
+import Home from './components/home-page/Home';
+import Profile from './components/profile-page/Profile';
+import ProtectedRoute from './components/navigations/ProtectedRoute';
+import UserJoinedTrips from './components/profile-page/UserJoinedTrips';
+import UserCreatedTrips from './components/profile-page/UserCreatedTrips';
 import { ToastContainer } from 'react-toastify';
-import NotFound from './components/NotFound';
+import NotFound from './components/navigations/NotFound';
 import 'react-toastify/dist/ReactToastify.css';
-import { ThemeProvider } from './components/ThemeContext';
+import { ThemeProvider } from './components/navigations/ThemeContext';
 
 function App() {
   const user = useAuth();

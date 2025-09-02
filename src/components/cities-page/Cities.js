@@ -1,6 +1,6 @@
 import { Box, Card, CardMedia, CardContent, Typography, Grid } from "@mui/material";
 import React, { useState, useEffect } from "react";
-import TravelBg from '../images/Travel_bg1.png';
+import TravelBg from '../../images/Travel_bg1.png';
 import { useParams,useNavigate } from "react-router-dom";
 export default function Cities() {
     const [cities, setCities] = useState([]);

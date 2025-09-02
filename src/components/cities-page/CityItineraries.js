@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { Button } from "@mui/material";
 import {Link} from "react-router-dom"
-import DisplayItineraries from "./DisplayItineraries";
-import { useAuth } from "../authentication/useAuth";
+import DisplayItineraries from "../home-page/DisplayItineraries";
+import { useAuth } from "../../authentication/useAuth";
 import { toast } from "react-toastify";
 export default function CityItineraries({ }) {
     const { city } = useParams();

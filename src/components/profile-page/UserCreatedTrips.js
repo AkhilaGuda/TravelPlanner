@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useAuth } from "../authentication/useAuth";
+import { useAuth } from "../../authentication/useAuth";
 import { Typography, Card, Box, Button } from "@mui/material";
 import { toast } from "react-toastify";
 import DeleteIcon from '@mui/icons-material/Delete';

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import TravelBg from '../images/Travel_bg1.png';
+import TravelBg from '../../images/Travel_bg1.png';
 import { Paper, Box, TextField, Stack, Button, InputLabel, MenuItem, Select, FormControl, Typography } from "@mui/material";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-import { useAuth, useAuthLoading } from '../authentication/useAuth'
+import { useAuth, useAuthLoading } from '../../authentication/useAuth'
 import { toast } from "react-toastify";
 import { differenceInDays } from 'date-fns';
 export function CreateItinerary() {

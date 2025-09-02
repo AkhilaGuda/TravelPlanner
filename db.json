@@ -172,19 +172,6 @@
       "groupSize": "10"
     },
     {
-      "id": "e256",
-      "userEmail": "ravi@gmail.com",
-      "destination": "goa",
-      "days": "10",
-      "dates": [
-        "2025-09-01",
-        "2025-09-10"
-      ],
-      "description": "beaches, clubs",
-      "budget": "20000",
-      "groupSize": "10"
-    },
-    {
       "id": "581a",
       "userEmail": "vinay@gmail.com",
       "destination": "bangalore",
@@ -261,6 +248,58 @@
       "description": "mysoore palace",
       "budget": "2500",
       "groupSize": "2"
+    },
+    {
+      "id": "7770",
+      "userEmail": "ajay@gmail.com",
+      "destination": "Sikkim",
+      "days": "4",
+      "dates": [
+        "2025-11-26",
+        "2025-11-29"
+      ],
+      "description": "movie",
+      "budget": "40000",
+      "groupSize": "10"
+    },
+    {
+      "id": "9c72",
+      "userEmail": "ajay@gmail.com",
+      "destination": "hyderabad",
+      "days": "2",
+      "dates": [
+        "2025-09-25",
+        "2025-09-26"
+      ],
+      "description": "wonderla, ramoji film city",
+      "budget": "3000",
+      "groupSize": "5"
+    },
+    {
+      "id": "e85e",
+      "userEmail": "ajay@gmail.com",
+      "destination": "Sikkim",
+      "days": "2",
+      "dates": [
+        "2025-09-02",
+        "2025-09-03"
+      ],
+      "description": "beach, temple, food",
+      "budget": "30000",
+      "groupSize": "20"
+    },
+    {
+      "id": "2346",
+      "userEmail": "ajay@gmail.com",
+      "destination": "mumbai",
+      "days": "1",
+      "dates": [
+        "2025-09-02",
+        "2025-09-02"
+      ],
+      "description": "bollywood film city",
+      "budget": "5000",
+      "groupSize": "3"
     }
   ],
   "user": [
@@ -370,27 +409,9 @@
       }
     },
     {
-      "id": "786a",
-      "userEmail": "ravi@gmail.com",
-      "itineraryId": "e256",
-      "item": {
-        "id": "e256",
-        "userEmail": "ravi@gmail.com",
-        "destination": "goa",
-        "days": "10",
-        "dates": [
-          "2025-09-01",
-          "2025-09-10"
-        ],
-        "description": "beaches, clubs",
-        "budget": "20000",
-        "groupSize": "10"
-      }
-    },
-    {
       "id": "36b1",
       "userEmail": "akhila@gmail.com",
-      "itineraryId": "e256",
+      "itineraryId": null,
       "item": {
         "id": "e256",
         "userEmail": "ravi@gmail.com",
@@ -529,35 +550,19 @@
       }
     },
     {
-      "id": "6a4e",
-      "itineraryId": "7d55",
+      "id": "2cc8",
+      "itineraryId": "f5ce",
       "item": {
-        "id": "7d55",
-        "destination": "goa",
-        "days": "2",
-        "dates": [
-          "2025-08-26",
-          "2025-08-27"
-        ],
-        "description": "Beaches, food",
-        "budget": "3000",
-        "groupSize": "5"
-      }
-    },
-    {
-      "id": "7b69",
-      "itineraryId": "0b47",
-      "item": {
-        "id": "0b47",
-        "destination": "Bali",
+        "id": "f5ce",
+        "destination": "chennai",
         "days": "10",
         "dates": [
-          "2025-09-27",
-          "2025-10-09"
+          "2025-08-29",
+          "2025-08-31"
         ],
-        "description": "Beaches, food, clubs",
-        "budget": "25000",
-        "groupSize": "9"
+        "description": "beaches, food, temples",
+        "budget": "4000",
+        "groupSize": "4"
       }
     }
   ]

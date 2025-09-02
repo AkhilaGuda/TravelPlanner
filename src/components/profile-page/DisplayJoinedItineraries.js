@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import { TextField, Button, Card, Box, Paper, Stack, Typography } from "@mui/material";
-import TravelBg from '../images/Travel_bg1.png';
+import TravelBg from '../../images/Travel_bg1.png';
 import { toast } from "react-toastify";
 import axios from "axios";
 import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';

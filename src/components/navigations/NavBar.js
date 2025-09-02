@@ -1,8 +1,8 @@
 import React,{useContext, useEffect} from "react";
 import { Link } from "react-router-dom";
 import { AppBar, Toolbar, Typography, Button, IconButton,Tooltip } from "@mui/material";
-import { useAuth,useAuthLoading } from "../authentication/useAuth";
-import { auth } from '../authentication/firebase';
+import { useAuth,useAuthLoading } from "../../authentication/useAuth";
+import { auth } from '../../authentication/firebase';
 import { toast } from "react-toastify";
 import { ThemeContext } from "./ThemeContext";
 import LightModeIcon from '@mui/icons-material/LightMode';

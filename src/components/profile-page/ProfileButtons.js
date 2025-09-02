@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { Button, Paper, Box, Stack } from "@mui/material";
 import { Link } from "react-router-dom";
-import TravelBg from '../images/Travel_bg1.png';
+import TravelBg from '../../images/Travel_bg1.png';
 export default function ProfileButtons(){
     return(
         <Box 

@@ -6,11 +6,11 @@ import { TextField, Button, Card, Box, Paper, Stack, Typography, Dialog,
   ListItem, 
   Tooltip,
   IconButton} from "@mui/material";
-import TravelBg from '../images/Travel_bg1.png';
+import TravelBg from '../../images/Travel_bg1.png';
 import React, { useEffect, useOptimistic, useState } from "react";
 import Home from "./Home";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../authentication/useAuth";
+import { useAuth } from "../../authentication/useAuth";
 import axios from "axios";
 import GroupIcon from '@mui/icons-material/Groups3';
 import AddTaskIcon from '@mui/icons-material/AddTask';
